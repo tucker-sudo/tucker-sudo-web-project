@@ -3,21 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Basics of 3D</title>
+        <link rel="stylesheet" href="../css/styles.css"> 
     </head>
     <body>
     <nav>
-        <a href="../Index.html">Home</a>
-        <p>HTML Page</p>
+        <div id="navlinks">
+            <a href="../Index.html">Home</a>
+            <a href="project2.html">HTML Page</a>
+            <div>HTML Page (CSS)</div>
+        </div>
     </nav>
         <h1>What are 3D graphics?</h1>
         <p>
             3D graphics, according to <a href="https://en.wikipedia.org/wiki/3D_computer_graphics">this Wikipedia page</a>, are:
         </p>
+        
+            <div id="quote">
+                Computer graphics that use a three-dimensional (3D) representation of geometric data (often Cartesian) stored in the computer for the purposes of performing calculations and rendering digital images, usually 2D images but sometimes 3D images.
+            </div>
+        
         <p>
-            <span style="color:whitesmoke; font-size: smaller; font-style:italic; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; background-color:#2c2835; display :block">Computer graphics that use a three-dimensional (3D) representation of geometric data (often Cartesian) stored in the computer for the purposes of performing calculations and rendering digital images, usually 2D images but sometimes 3D images.</span>
-        </p>
-        <p>
-            3D models are comprised of faces, which each contain 3-4 edges, each edge connection being a "vertex."
+            3D models are comprised of <span style="color:rgb(255, 90, 90);"">faces</span>, which each contain 3-4 <span style="color:rgb(133, 133, 255)";>edges</span>, each edge connection being a "<span style="color:rgb(105, 255, 105)";>vertex</span>".
         </p>
         <img src="../media/3DmodelComponents.png" alt="Screenshot of a low poly-count 3D sphere, displaying its face, edge, and vertex." width="250">
 
@@ -47,65 +53,5 @@
             All of these are great 3D softwares, but each has their own use. The best for hobbyists and small teams would be Blender being that it is free and kept up-to-date by its team through donations and various project backers. Maya and 3ds Max are best for large teams that require live support or update requests from the AutoDesk team - otherwise, they are both very expensive licenses for individuals or small teams. Other softwares listed here are for more specific use-cases - ZBrush being great for 3D sculpting, and UE5 being great for a cinematic rendering pipeline.
         </p>
 
-        <table>
-            <caption>3D Software Comparison</caption>
-            <tr>
-                <th>Software</th>
-                <th>Price</th>
-                <th>Modelling?</th>
-                <th>Animation?</th>
-                <th>Sculpting?</th>
-                <th>Simulations?</th>
-                <th>Rendering?</th>
-            </tr>
-            <tr>
-                <td>Blender</td>
-                <td>Free</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Limited</td>
-                <td>Cycles & EEVEE</td>
-            </tr>
-            <tr>
-                <td>Maya</td>
-                <td>$160/mo</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Multiple engines</td>
-            </tr>
-            <tr>
-                <td>3ds Max</td>
-                <td>$160/mo</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Yes</td>
-                <td>Multiple engines</td>
-            </tr>
-            <tr>
-                <td>ZBrush</td>
-                <td>$33.25/mo</td>
-                <td>No</td>
-                <td>No</td>
-                <td>Advanced</td>
-                <td>No</td>
-                <td>Limited</td>
-            </tr>
-            <tr>
-                <td>Unreal Engine 5</td>
-                <td>Free*
-                <td>No</td>
-                <td>Yes</td>
-                <td>No</td>
-                <td>Yes</td>
-                <td>UE5</td>
-            </tr>
-        </table>
-        <aside>
-            <p><em>*Unreal Engine 5 has free licenses for end products using the software making under $1 million, royalty fees apply for profits made over that range. Learn more <a href="https://www.unrealengine.com/en-US/license">here</a>.</em></p>
-        </aside>
     </body>
 </html>

@@ -1,4 +1,55 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    background-color:#0e1113;
+    color:#fff;
+}
+
 h1 {
-    color:blue;
-    font-size: 30px;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    padding-left: 10px;
+}
+
+p, li {
+    color: #d6d6d6;
+}
+
+a {
+    color: rgb(255, 255, 185);
+}
+
+a:hover {
+    color: rgb(255, 206, 92);
+}
+
+img {
+    border-radius: 10px;
+}
+
+#quote {
+    font-size: 0.9rem;
+    font-style:italic;
+    color: rgb(244, 244, 221);
+    background-color:#252414;
+    padding: 10px;
+    border-radius:10px;
+}
+
+nav {
+    border: 1px solid rgb(53, 53, 53);
+}
+
+#navlinks {
+    display:flex;
+    justify-content: center;
+}
+
+#navlinks > a, #navlinks > div {
+    padding: 5px 15px;
 }
