@@ -24,10 +24,6 @@ a {
     color: rgb(255, 255, 185);
 }
 
-a:hover {
-    color: rgb(255, 206, 92);
-}
-
 img {
     border-radius: 10px;
 }
@@ -41,15 +37,85 @@ img {
     border-radius:10px;
 }
 
+/* Interactivity */
+
+a:hover, button:hover {
+    color: rgb(255, 206, 92);
+    cursor: pointer;
+}
+
+form > button {
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/* Navigation bar */
+
 nav {
     border: 1px solid rgb(53, 53, 53);
 }
 
 #navlinks {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 #navlinks > a, #navlinks > div {
     padding: 5px 15px;
+}
+
+/* Main */
+
+main {
+    padding-bottom: 10px;
+}
+
+/* Aside */
+
+aside {
+    padding-top: 10px;
+    border-top: 2px solid rgb(53, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Form */
+
+input {
+    height: 35px;
+}
+
+#submitted {
+    color: rgb(255, 255, 155);
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 60px;
+}
+
+.form-row input {
+    width: 200px;
+}
+
+.field-error {
+    color: rgb(255, 135, 135);
+    width: 180px;
+    min-height: 1.2rem;
+}
+
+p > i {
+    color: rgb(170, 170, 170);
+    font-size: 0.9rem;
 }
